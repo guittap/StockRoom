@@ -1,8 +1,12 @@
 import React, { Component, Fragment } from "react";
 
-export class App extends Component {
+class App extends Component {
   render() {
-    return <Fragment></Fragment>;
+    return (
+      <Fragment>
+        <h1>Our App</h1>
+      </Fragment>
+    );
   }
 }
 
